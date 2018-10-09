@@ -23,7 +23,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-sofa-rpc-server",
+    "start": "egg-scripts start --daemon --title=egg-server-sofa-rpc-server --port 6001 --ignore-stderr",
     "stop": "egg-scripts stop --title=egg-server-sofa-rpc-server",
     "dev": "egg-bin dev -p 6001",
     "debug": "egg-bin debug",
